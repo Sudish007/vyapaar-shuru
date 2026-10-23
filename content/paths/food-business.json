@@ -1,0 +1,32 @@
+{
+  "slug": "food-business",
+  "title": "Restaurant, cloud kitchen or packaged-food brand",
+  "tagline": "From a home kitchen on Swiggy to a café or a snack brand on shelves — food has its own licence stack.",
+  "who": ["Home chefs and cloud kitchens", "Cafés, QSRs and restaurants", "Packaged food, beverage and nutraceutical brands"],
+  "affects": ["food", "ecommerce", "manufacturer"],
+  "structure": {
+    "recommended": "Proprietorship for a single outlet or home kitchen; private limited for a brand or multi-outlet chain",
+    "why": "A single kitchen runs fine as a proprietorship with FSSAI registration and GST (composition at 5% is popular for restaurants). A packaged brand or a chain needs a company for trademarks, investors and franchise agreements.",
+    "alternatives": "LLP for partner-run cafés that will not raise equity."
+  },
+  "selections": { "structure": "proprietor", "selling": ["goods"], "channels": ["offline-store", "marketplace"], "employees": "1-9", "flags": ["food", "packaged-goods"] },
+  "steps": ["choose-structure", "check-name", "pick-codes", "pan-tan", "fssai", "gst-register", "gst-scheme", "udyam", "proprietor-proofs", "shops-establishment", "trade-licence", "legal-metrology", "trademark", "current-account", "payments", "offline-store", "marketplace-onboarding", "sourcing", "offer-letters", "professional-tax", "payroll-tds", "books", "gst-returns", "advance-tax", "itr", "annual-renewals"],
+  "costs": { "low": 5000, "high": 60000, "breakdown": ["FSSAI: ₹100/yr (registration) to ₹2,000–5,000/yr (State licence)", "Trade licence + eating-house licence (police, some cities) + signage: ₹2,000–25,000", "Fire NOC (above seating/area thresholds): ₹1,000–15,000", "Shops & Establishment: ₹0–5,000", "Music licence (PPL/IPRS) if you play music: ₹5,000–40,000/yr", "Liquor licence (bars): ₹1–20 lakh+ by state"] },
+  "timeline": "FSSAI registration within a week, licence 2–4 weeks; Swiggy/Zomato onboarding 3–10 days after FSSAI; a café’s municipal permits 3–8 weeks.",
+  "taxes": [
+    "Restaurants: 5% GST without input credit (composition at 5% of turnover up to ₹1.5 crore, or regular 5% rate); 18% with ITC only in specified hotel premises. Delivery platforms pay GST on restaurant services themselves (ECO liable under s.9(5)) — you still need registration above threshold.",
+    "Packaged food: GST by HSN (mostly 5% or 18% after the 2025 rationalisation; branded vs unbranded distinctions matter).",
+    "Income tax: proprietor slabs; presumptive 6%/8% up to ₹3 crore possible for traders/manufacturers.",
+    "Swiggy/Zomato deduct 0.1% TDS (194-O) and collect GST TCS where applicable; reconcile weekly settlements."
+  ],
+  "selling": ["Swiggy, Zomato, ONDC food apps (Magicpin, Paytm)", "Own ordering site/WhatsApp with Razorpay", "Retail: kirana and modern trade for packaged goods; quick commerce via distributors", "Cloud-kitchen aggregators and dark-kitchen rentals"],
+  "sourcing": ["APMC mandis and wholesale markets; Metro/Udaan/Jumbotail for B2B groceries; packaging from Daryaganj/Sadar (Delhi) or Alibaba", "Co-packers for a food brand must hold their own FSSAI licence; your label still carries your FSSAI number as brand owner"],
+  "pitfalls": [
+    "Operating on an FSSAI *registration* when turnover or kind of business needs a *licence* (e.g., any importer or e-commerce food seller needs Central).",
+    "Labels without FSSAI logo and number, veg/non-veg mark, nutrition panel, allergen and date marking — FSSAI labelling regulations are enforced online too.",
+    "Choosing composition then selling through a marketplace inter-state or issuing tax invoices — not allowed.",
+    "No fire NOC or eating-house licence in cities that require them (Delhi, Mumbai, Bengaluru) — sealing risk.",
+    "Health certificates and medical fitness for food handlers, pest-control records and water testing skipped until an inspection."
+  ],
+  "guides": ["licences-directory", "gst-registration", "gst-compliance", "selling-online-and-offline", "trademark-and-ip", "hiring-and-payroll"]
+}

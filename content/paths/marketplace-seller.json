@@ -1,0 +1,31 @@
+{
+  "slug": "marketplace-seller",
+  "title": "Online reseller on marketplaces",
+  "tagline": "Trading other people’s products on Amazon, Flipkart, Meesho and quick-commerce apps — low capital, fast start.",
+  "who": ["Traders and wholesalers going online", "First-time sellers testing categories", "Family businesses adding an online channel"],
+  "affects": ["ecommerce"],
+  "structure": {
+    "recommended": "Sole proprietorship (or partnership) to start",
+    "why": "Marketplaces accept proprietors with a GSTIN, PAN and bank account. You avoid audit and ROC costs while margins are thin. Convert to an LLP or company when turnover crosses a few crore, when you build a brand, or when liability (returns disputes, counterfeit claims) grows.",
+    "alternatives": "Private limited if you plan to build private labels or need credit lines from the start."
+  },
+  "selections": { "structure": "proprietor", "selling": ["goods"], "channels": ["marketplace"], "employees": "none", "flags": ["packaged-goods"] },
+  "steps": ["choose-structure", "check-name", "pick-codes", "pan-tan", "gst-register", "gst-scheme", "udyam", "proprietor-proofs", "current-account", "payments", "sourcing", "legal-metrology", "marketplace-onboarding", "ecommerce-rules", "books", "gst-returns", "advance-tax", "itr", "annual-renewals"],
+  "costs": { "low": 2000, "high": 20000, "breakdown": ["GST and Udyam: free (₹1,000–3,000 if a CA files GST)", "Current account: ₹0–5,000 balance", "Barcodes if you list new ASINs: ₹2,000–5,000", "Accounting software with marketplace reconciliation: ₹0–6,000/year", "Working capital for stock: the real cost"] },
+  "timeline": "GSTIN in 3–7 working days (Rule 14A path), marketplace approval 2–5 days each; selling within two weeks if stock is ready.",
+  "taxes": [
+    "GST registration is mandatory to sell taxable goods through a marketplace regardless of turnover; from 1 Oct 2023 unregistered sellers may sell *intra-state* only, with an enrolment number, and only exempt or small-value cases — most sellers simply register.",
+    "Marketplaces collect 0.5% GST TCS and deduct 0.1% income-tax TDS (194-O); both show up as credits to claim.",
+    "Composition scheme is incompatible with inter-state marketplace sales — stay regular; QRMP keeps filing quarterly below ₹5 crore.",
+    "Income tax on slab rates; presumptive 6% of digital turnover (Section 58) is available up to ₹3 crore for traders."
+  ],
+  "selling": ["Amazon (FBA or self-ship), Flipkart (Flipkart Fulfilment), Meesho (no commission, composition sellers allowed), JioMart, Snapdeal, Tata Cliq", "Quick commerce via distributors or direct onboarding at scale", "ONDC seller apps for zero-commission discovery"],
+  "sourcing": ["Wholesale hubs: Sadar Bazar and Gandhi Nagar (Delhi), Crawford Market (Mumbai), Chickpet (Bengaluru), Burrabazar (Kolkata), Surat textile markets", "B2B apps: Udaan, IndiaMART, Jumbotail, Amazon Business", "Brand distributors — get an authorisation letter to list branded products and avoid IP takedowns"],
+  "pitfalls": [
+    "Listing branded goods without brand authorisation — account suspension and IP complaints.",
+    "Stocking in a marketplace warehouse in another state without registering there — Rule 14B (from Nov 2026) finally lets you use the warehouse as PPoB; until notified you need an APoB/registration.",
+    "Not reconciling returns, RTOs and settlement reports — GST is on the sale, credit notes needed for returns.",
+    "Missing MRP/manufacturer/country-of-origin on labels for imported goods — delisting and Legal Metrology penalties."
+  ],
+  "guides": ["selling-on-marketplaces", "gst-registration", "gst-compliance", "ecommerce-rules", "sourcing-and-procurement", "proprietorship-and-partnership"]
+}

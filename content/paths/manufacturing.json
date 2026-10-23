@@ -1,0 +1,32 @@
+{
+  "slug": "manufacturing",
+  "title": "Small manufacturing unit",
+  "tagline": "Making things — garments, food processing, components, furniture, chemicals — in a rented shed or industrial plot.",
+  "who": ["First-generation manufacturers", "Traders moving up the chain into making", "Makers scaling from a workshop to a factory"],
+  "affects": ["manufacturer", "employer", "company"],
+  "structure": {
+    "recommended": "Private limited company (LLP for smaller family units)",
+    "why": "Factories carry safety, environmental and labour liability; banks lend against a company’s balance sheet; PLI and state capital subsidies are easier to claim as a company. Udyam (micro: investment ≤ ₹2.5 crore) opens collateral-free credit and subsidies regardless of structure.",
+    "alternatives": "Proprietorship for a micro workshop below 10 workers with no power-driven process."
+  },
+  "selections": { "structure": "pvt", "selling": ["goods"], "channels": ["b2b", "marketplace", "export"], "employees": "10-19", "flags": ["manufacturing", "packaged-goods"] },
+  "steps": ["choose-structure", "check-name", "pick-codes", "dsc", "spice-plus", "registered-office", "inc-20a", "pan-tan", "gst-register", "udyam", "pollution-factory", "bis", "legal-metrology", "trademark", "shops-establishment", "dpiit", "current-account", "payments", "sourcing", "offer-letters", "professional-tax", "epf-esi", "posh", "payroll-tds", "iec", "lut", "books", "gst-returns", "tds-returns", "advance-tax", "itr", "statutory-audit", "roc-annual", "board-meetings", "msme-payments", "annual-renewals"],
+  "costs": { "low": 50000, "high": 400000, "breakdown": ["Incorporation: ₹8,000–25,000", "Pollution CTE/CTO: ₹1,000–50,000+ by category and capital", "Factory licence + plan approval: ₹2,000–25,000", "Fire NOC: ₹5,000–50,000", "BIS/ISI licence if applicable: ₹50,000–3 lakh", "Udyam, DPIIT: free", "Audit + ROC + GST + payroll compliance: ₹60,000–1.5 lakh a year"] },
+  "timeline": "Company in two weeks; pollution consent 1–3 months (White category: instant intimation); factory licence 1–2 months; a realistic 3–6 months to legal production.",
+  "taxes": [
+    "Corporate tax 25.17% all-in; the 15% new-manufacturing rate (old 115BAB) was limited to companies that began production by 31 Mar 2024 — check whether any extension applies before relying on it.",
+    "GST at HSN rate on output; full ITC on raw materials, capital goods and job work; e-way bills on movements above ₹50,000; e-invoicing once turnover crosses ₹5 crore.",
+    "Job-work rules (s.143): send inputs to job workers under delivery challan, bring back within 1 year (3 years for capital goods).",
+    "TDS on contractors, job workers (194C), rent, professionals; EPF/ESI deductions on wages."
+  ],
+  "selling": ["B2B to brands and traders; GeM for government; IndiaMART/TradeIndia leads", "Own brand on marketplaces and D2C", "Exports via EPCs and Amazon Global Selling", "State procurement preferences for MSEs (25% reservation, price preference)"],
+  "sourcing": ["Raw materials: cluster mandis and industrial estates; MSME Raw Material Assistance via NSIC", "Machinery: domestic (Rajkot, Coimbatore, Ludhiana, Faridabad) or imported under EPCG (zero duty against export obligation)", "Industrial plots and sheds from state industrial development corporations (MIDC, KIADB, GIDC, UPSIDA, SIPCOT) with incentive packages"],
+  "pitfalls": [
+    "Starting construction before Consent to Establish — retroactive consent is slower and costlier.",
+    "Mis-classifying the unit (Orange vs Green) to skip consents — inspections and closure notices follow.",
+    "Counting only permanent staff for EPF/ESI/Factories Act thresholds — contract and casual workers count.",
+    "Not registering a charge (CHG-1) when the bank lends against machinery — the bank will insist and penalties accrue.",
+    "Missing state incentive deadlines — most capital/interest subsidies require application *before* commercial production."
+  ],
+  "guides": ["licences-directory", "register-a-private-limited-company", "udyam-msme-registration", "hiring-and-payroll", "gst-compliance", "funding-and-schemes", "sourcing-and-procurement"]
+}

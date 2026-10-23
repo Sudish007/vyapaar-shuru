@@ -1,0 +1,31 @@
+{
+  "slug": "social-enterprise",
+  "title": "Non-profit or social enterprise",
+  "tagline": "A mission-first organisation — Section 8 company, trust or society — that may still sell products or services.",
+  "who": ["Founders building education, health, livelihood or climate programmes", "Teams that want grants and CSR funding", "Social businesses weighing non-profit vs for-profit structures"],
+  "affects": ["company"],
+  "structure": {
+    "recommended": "Section 8 company (non-profit company under the Companies Act)",
+    "why": "CSR donors and foundations strongly prefer Section 8 companies: MCA governance, audited accounts, no dividends, eligibility for 12A/80G income-tax registrations and, after three years, FCRA for foreign grants. Trusts and societies are cheaper but state-regulated and less trusted by institutional donors. A revenue-generating social business can run a for-profit private limited alongside.",
+    "alternatives": "Public charitable trust (state Registrar) or society (Societies Registration Act) for small, local, grant-funded work; private limited for a social business that pays founders and raises impact investment."
+  },
+  "selections": { "structure": "pvt", "selling": ["services"], "channels": ["b2b"], "employees": "1-9", "flags": [] },
+  "steps": ["choose-structure", "check-name", "dsc", "spice-plus", "registered-office", "inc-20a", "pan-tan", "gst-decide", "current-account", "offer-letters", "professional-tax", "payroll-tds", "books", "tds-returns", "itr", "statutory-audit", "roc-annual", "board-meetings", "annual-renewals"],
+  "costs": { "low": 15000, "high": 60000, "breakdown": ["Section 8 incorporation (SPICe+ with INC-12 licence): ₹10,000–30,000 professional fee; MCA fee waived for Section 8", "12A/80G registration (Form 10A/10AB): CA fee ₹5,000–15,000", "Audit + ROC: ₹25,000–50,000 a year", "CSR-1 registration on MCA to receive CSR funds: free", "NGO Darpan (NITI Aayog) ID: free"] },
+  "timeline": "Section 8 licence and incorporation 3–5 weeks; 12A/80G provisional registration 1–3 months; FCRA only after three years of activity.",
+  "taxes": [
+    "Income exempt under sections 11/12 (now re-numbered in the 2025 Act) once registered under 12A; donors get 50% deduction with your 80G certificate (Form 10BE must be issued to donors and 10BD filed annually).",
+    "GST applies to any commercial supply — training fees, product sales — above ₹20 lakh; pure grants and donations without quid pro quo are outside GST.",
+    "TDS on salaries, consultants and rent as any employer; Section 8 companies file ITR-7 by 31 October with Form 10B/10BB audit.",
+    "Accumulate at most 15% of income; apply 85% to objects each year or file Form 10 to accumulate for up to five years."
+  ],
+  "selling": ["CSR partnerships (register in CSR-1; comply with the company’s CSR policy and reporting)", "Grants: foundations, government schemes, GuideStar/NGO Darpan listings", "Earned income: training, products made by beneficiaries (keep GST and labelling compliant like any seller)"],
+  "sourcing": ["Volunteers and fellows — written agreements, stipends through payroll with TDS where applicable"],
+  "pitfalls": [
+    "Paying founders ‘honorarium’ in cash without TDS or appointment resolutions — Section 8 companies can pay reasonable remuneration, but it must be approved and documented.",
+    "Taking foreign donations (including from NRIs’ foreign accounts) before FCRA registration — a criminal offence under FCRA.",
+    "Missing the 80G renewal cycle (registrations are now time-bound and renewed every five years) and Form 10BD donor statements.",
+    "Mixing programme and commercial income without separate books."
+  ],
+  "guides": ["choose-a-structure", "register-a-private-limited-company", "audits-and-annual-filings", "books-and-records", "hiring-and-payroll", "funding-and-schemes"]
+}

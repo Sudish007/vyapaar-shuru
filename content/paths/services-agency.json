@@ -1,0 +1,31 @@
+{
+  "slug": "services-agency",
+  "title": "Services agency or firm",
+  "tagline": "Marketing, design, IT services, recruitment, consulting, events — a team billing clients, in India and abroad.",
+  "who": ["Two or more partners starting a client-services business", "Freelancers who have outgrown a one-person setup", "Firms that will hire 5–50 people in the first years"],
+  "affects": ["company", "employer", "saas"],
+  "structure": {
+    "recommended": "Limited Liability Partnership",
+    "why": "Partners get limited liability without the audit-every-year burden of a company (LLP audit only above ₹40 lakh turnover or ₹25 lakh contribution). Profit distribution is tax-free in partners’ hands after the LLP pays 30%; the LLP agreement handles exits. Choose a company instead if you plan to raise equity or sell the firm.",
+    "alternatives": "Private limited if clients are large enterprises that prefer companies or if you will raise money."
+  },
+  "selections": { "structure": "llp", "selling": ["services"], "channels": ["b2b", "export"], "employees": "1-9", "flags": ["foreign-payments"] },
+  "steps": ["choose-structure", "check-name", "pick-codes", "founders-agreement", "dsc", "fillip", "registered-office", "pan-tan", "gst-register", "lut", "udyam", "dpiit", "trademark", "shops-establishment", "current-account", "payments", "foreign-payments", "softex", "offer-letters", "professional-tax", "epf-esi", "posh", "payroll-tds", "website-policies", "dpdp", "books", "gst-returns", "tds-returns", "advance-tax", "itr", "llp-annual", "msme-payments", "annual-renewals"],
+  "costs": { "low": 15000, "high": 50000, "breakdown": ["LLP incorporation incl. DSCs and stamp duty: ₹6,000–15,000", "LLP agreement drafting: ₹3,000–10,000", "Shops & Establishment, professional tax: ₹0–7,500", "Accounting + Form 8/11 + ITR: ₹15,000–35,000 a year", "Payroll software once you hire: ₹50–150/employee/month"] },
+  "timeline": "LLP in 10–15 working days plus 30 days to file the agreement; GST in a week; hiring paperwork a few days.",
+  "taxes": [
+    "LLP pays 30% + 12% surcharge above ₹1 crore + 4% cess; partner remuneration and interest are deductible within section limits; profit share is exempt for partners.",
+    "18% GST on domestic services; exports zero-rated under LUT; registration mandatory above ₹20 lakh (voluntary earlier for B2B credit).",
+    "Clients deduct TDS under 194J (10%/2%) or 194C (1%/2%) — track and claim.",
+    "You deduct TDS on salaries (192), rent (194-I), contractors (194C), professionals (194J)."
+  ],
+  "selling": ["Retainers and projects; MSAs with SOWs", "Marketplaces for services: Upwork, Clutch, GoodFirms, LinkedIn", "Government work via GeM (needs Udyam) and tenders"],
+  "sourcing": ["Subcontractors and freelancers — collect PAN, deduct TDS, sign IP assignment", "Software and co-working — claim ITC on GST invoices in the LLP’s name"],
+  "pitfalls": [
+    "Not filing Form 3 (LLP agreement) within 30 days — ₹100/day forever.",
+    "Partner drawings booked as expenses — remuneration must be authorised by the agreement and within tax limits.",
+    "Hiring ‘consultants’ who are really employees — EPF/ESI, gratuity and POSH apply by substance.",
+    "Missing the 20-employee EPF trigger because interns and contract staff were not counted."
+  ],
+  "guides": ["llp-registration", "hiring-and-payroll", "gst-registration", "tds-tcs", "contracts-and-agreements", "going-international"]
+}

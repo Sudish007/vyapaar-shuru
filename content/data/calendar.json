@@ -1,0 +1,79 @@
+{
+  "note": "Indicative statutory calendar for the April–March financial year. Due dates move by notification (extensions are common); confirm on the portal. Where a date falls on a holiday the next working day usually applies.",
+  "filters": [
+    { "id": "gst-monthly", "label": "GST — monthly filer" },
+    { "id": "gst-qrmp", "label": "GST — quarterly (QRMP)" },
+    { "id": "gst-composition", "label": "GST — composition" },
+    { "id": "tds", "label": "TDS deductor (has TAN)" },
+    { "id": "company", "label": "Private limited / OPC" },
+    { "id": "llp", "label": "LLP" },
+    { "id": "proprietor", "label": "Proprietor / partnership" },
+    { "id": "employer", "label": "Employer (EPF/ESI/PT)" },
+    { "id": "exporter", "label": "Exporter / IEC holder" },
+    { "id": "audit", "label": "Tax-audit case" }
+  ],
+  "events": [
+    { "day": 7, "every": "month", "what": "Deposit TDS/TCS deducted last month (30 April for March deductions)", "who": ["tds"], "portal": "incometax" },
+    { "day": 11, "every": "month", "what": "GSTR-1 for last month (monthly filers)", "who": ["gst-monthly"], "portal": "gst" },
+    { "day": 13, "every": "month", "what": "IFF (optional B2B invoice upload) for QRMP taxpayers — months 1 and 2 of the quarter", "who": ["gst-qrmp"], "portal": "gst" },
+    { "day": 15, "every": "month", "what": "EPF ECR and payment; ESI contribution for last month", "who": ["employer"], "portal": "epfo" },
+    { "day": 20, "every": "month", "what": "GSTR-3B with tax payment (monthly filers)", "who": ["gst-monthly"], "portal": "gst" },
+    { "day": 25, "every": "month", "what": "PMT-06 tax payment for months 1 and 2 of the quarter (QRMP)", "who": ["gst-qrmp"], "portal": "gst" },
+    { "day": 31, "every": "month", "what": "Professional tax remittance (monthly in most levying states; dates vary — Maharashtra 31st, Karnataka 20th)", "who": ["employer"], "portal": "state-shops" },
+
+    { "month": 4, "day": 13, "what": "GSTR-1 for Jan–Mar quarter (QRMP)", "who": ["gst-qrmp"], "portal": "gst" },
+    { "month": 4, "day": 18, "what": "CMP-08 for Jan–Mar (composition)", "who": ["gst-composition"], "portal": "gst" },
+    { "month": 4, "day": 22, "what": "GSTR-3B for Jan–Mar (QRMP; 24th for some states)", "who": ["gst-qrmp"], "portal": "gst" },
+    { "month": 4, "day": 30, "what": "GSTR-4 annual return (composition)", "who": ["gst-composition"], "portal": "gst" },
+    { "month": 4, "day": 30, "what": "MSME-1 half-yearly return of overdue MSME payables (Oct–Mar)", "who": ["company"], "portal": "mca" },
+    { "month": 4, "day": 30, "what": "File/renew LUT for the new financial year before the first export", "who": ["exporter"], "portal": "gst" },
+    { "month": 4, "day": 30, "what": "Opt in/out of QRMP or composition for the year (by 30 April / 31 March respectively)", "who": ["gst-monthly", "gst-qrmp", "gst-composition"], "portal": "gst" },
+
+    { "month": 5, "day": 15, "what": "TCS return (27EQ) for Jan–Mar", "who": ["tds"], "portal": "traces" },
+    { "month": 5, "day": 30, "what": "LLP Form 11 — annual return of partners", "who": ["llp"], "portal": "mca" },
+    { "month": 5, "day": 31, "what": "TDS returns 24Q/26Q for Jan–Mar", "who": ["tds"], "portal": "traces" },
+
+    { "month": 6, "day": 15, "what": "Advance tax — 1st instalment (15% of estimated tax)", "who": ["company", "llp", "proprietor"], "portal": "incometax" },
+    { "month": 6, "day": 15, "what": "Issue Form 16 to employees; Form 16A for Jan–Mar", "who": ["tds", "employer"], "portal": "traces" },
+    { "month": 6, "day": 30, "what": "DPT-3 — return of deposits/outstanding loans", "who": ["company"], "portal": "mca" },
+    { "month": 6, "day": 30, "what": "IEC annual update window closes (April–June) — update even with no changes", "who": ["exporter"], "portal": "dgft" },
+
+    { "month": 7, "day": 13, "what": "GSTR-1 for Apr–Jun (QRMP)", "who": ["gst-qrmp"], "portal": "gst" },
+    { "month": 7, "day": 15, "what": "FLA return to RBI if you have foreign investment or ODI", "who": ["company", "llp"], "portal": "rbi" },
+    { "month": 7, "day": 18, "what": "CMP-08 for Apr–Jun (composition)", "who": ["gst-composition"], "portal": "gst" },
+    { "month": 7, "day": 22, "what": "GSTR-3B for Apr–Jun (QRMP)", "who": ["gst-qrmp"], "portal": "gst" },
+    { "month": 7, "day": 31, "what": "Income-tax return — individuals, proprietors, partnerships and LLPs not under audit", "who": ["proprietor", "llp"], "portal": "incometax" },
+    { "month": 7, "day": 31, "what": "TDS returns 24Q/26Q for Apr–Jun", "who": ["tds"], "portal": "traces" },
+
+    { "month": 9, "day": 15, "what": "Advance tax — 2nd instalment (45% cumulative)", "who": ["company", "llp", "proprietor"], "portal": "incometax" },
+    { "month": 9, "day": 30, "what": "Annual General Meeting (companies; OPCs exempt) — first AGM within 9 months of the first FY end", "who": ["company"], "portal": "mca" },
+    { "month": 9, "day": 30, "what": "DIR-3 KYC for every DIN holder", "who": ["company", "llp"], "portal": "mca" },
+    { "month": 9, "day": 30, "what": "Tax audit report (Form 26 under the 2026 Rules; old 3CA/3CB-3CD)", "who": ["audit", "company"], "portal": "incometax" },
+
+    { "month": 10, "day": 13, "what": "GSTR-1 for Jul–Sep (QRMP)", "who": ["gst-qrmp"], "portal": "gst" },
+    { "month": 10, "day": 15, "what": "ADT-1 — auditor appointment (within 15 days of the AGM)", "who": ["company"], "portal": "mca" },
+    { "month": 10, "day": 18, "what": "CMP-08 for Jul–Sep (composition)", "who": ["gst-composition"], "portal": "gst" },
+    { "month": 10, "day": 22, "what": "GSTR-3B for Jul–Sep (QRMP)", "who": ["gst-qrmp"], "portal": "gst" },
+    { "month": 10, "day": 30, "what": "AOC-4 — financial statements (within 30 days of the AGM)", "who": ["company"], "portal": "mca" },
+    { "month": 10, "day": 30, "what": "LLP Form 8 — statement of accounts and solvency", "who": ["llp"], "portal": "mca" },
+    { "month": 10, "day": 31, "what": "Income-tax return — companies and audit cases (30 Nov with transfer pricing)", "who": ["company", "audit"], "portal": "incometax" },
+    { "month": 10, "day": 31, "what": "MSME-1 half-yearly return (Apr–Sep)", "who": ["company"], "portal": "mca" },
+    { "month": 10, "day": 31, "what": "TDS returns 24Q/26Q for Jul–Sep", "who": ["tds"], "portal": "traces" },
+
+    { "month": 11, "day": 29, "what": "MGT-7 / MGT-7A — annual return (within 60 days of the AGM)", "who": ["company"], "portal": "mca" },
+
+    { "month": 12, "day": 15, "what": "Advance tax — 3rd instalment (75% cumulative)", "who": ["company", "llp", "proprietor"], "portal": "incometax" },
+    { "month": 12, "day": 31, "what": "GSTR-9 annual return (turnover > ₹2 crore) and GSTR-9C (> ₹5 crore) for the previous FY", "who": ["gst-monthly", "gst-qrmp"], "portal": "gst" },
+    { "month": 12, "day": 31, "what": "Annual Performance Report (APR) for overseas investments (ODI)", "who": ["company", "llp"], "portal": "rbi" },
+    { "month": 12, "day": 31, "what": "Belated/revised income-tax return (Budget 2026 extends the window to 31 March on payment of a fee — verify)", "who": ["company", "llp", "proprietor"], "portal": "incometax" },
+
+    { "month": 1, "day": 13, "what": "GSTR-1 for Oct–Dec (QRMP)", "who": ["gst-qrmp"], "portal": "gst" },
+    { "month": 1, "day": 18, "what": "CMP-08 for Oct–Dec (composition)", "who": ["gst-composition"], "portal": "gst" },
+    { "month": 1, "day": 22, "what": "GSTR-3B for Oct–Dec (QRMP)", "who": ["gst-qrmp"], "portal": "gst" },
+    { "month": 1, "day": 31, "what": "TDS returns 24Q/26Q for Oct–Dec", "who": ["tds"], "portal": "traces" },
+    { "month": 1, "day": 31, "what": "POSH annual report to the District Officer (calendar year)", "who": ["employer"], "portal": "state-shops" },
+
+    { "month": 3, "day": 15, "what": "Advance tax — 4th instalment (100%); presumptive taxpayers pay the whole year’s tax", "who": ["company", "llp", "proprietor"], "portal": "incometax" },
+    { "month": 3, "day": 31, "what": "Opt into composition for the next year (CMP-02); renew Shops & Establishment, trade licence and FSSAI where the year-end falls here", "who": ["gst-composition", "proprietor"], "portal": "gst" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "freelancer",
+  "title": "Freelancer, consultant or creator",
+  "tagline": "Design, code, writing, coaching, content — selling your own time and skill, in India or abroad.",
+  "who": ["Solo professionals billing clients", "Creators earning from brand deals, platforms and courses", "Consultants who may hire a small team later"],
+  "affects": ["freelancer", "saas"],
+  "structure": {
+    "recommended": "Sole proprietorship on your own PAN",
+    "why": "Zero incorporation cost, one tax return, and — if you are in a specified profession — presumptive tax lets you declare 50% of receipts as income with no books or audit up to ₹75 lakh. Move to an LLP or private limited when you hire, take on liability-heavy contracts or want to bring in a partner.",
+    "alternatives": "OPC if a client insists on a company; LLP once a second partner joins."
+  },
+  "selections": { "structure": "proprietor", "selling": ["services", "digital"], "channels": ["own-site", "export"], "employees": "none", "flags": ["foreign-payments"] },
+  "steps": ["choose-structure", "check-name", "pick-codes", "pan-tan", "gst-decide", "gst-register", "lut", "udyam", "current-account", "payments", "foreign-payments", "website-policies", "softex", "books", "gst-returns", "advance-tax", "itr", "dpdp", "annual-renewals"],
+  "costs": { "low": 0, "high": 15000, "breakdown": ["Udyam, GST, LUT: free", "Current account: ₹0–5,000 minimum balance", "Accounting software: ₹0–4,000/year", "CA for ITR-4/ITR-3: ₹1,500–6,000", "Trademark (optional): ₹4,500 + attorney"] },
+  "timeline": "You can invoice legally today on your PAN. GST (if needed) in 3–7 working days; LUT instant; everything else inside two weeks.",
+  "taxes": [
+    "Income tax on slab rates; presumptive 50% rule (Section 58 of the 2025 Act, old 44ADA) up to ₹75 lakh for specified professions if ≤5% cash receipts, else ₹50 lakh.",
+    "GST registration mandatory above ₹20 lakh turnover (₹10 lakh in special states); exports of services are zero-rated under a LUT; domestic services carry 18%.",
+    "Clients deduct TDS at 10% under 194J (2% for technical services) — reclaim through your return; check Form 26AS/AIS.",
+    "Advance tax: presumptive taxpayers pay once by 15 March; others quarterly."
+  ],
+  "selling": ["Direct contracts and retainers", "Platforms: Upwork, Fiverr, Toptal, Contra (they may deduct TDS/GST TCS)", "Courses and digital goods on Gumroad, Graphy, Teachable, Instamojo (foreign platforms acting as merchant of record simplify GST abroad)"],
+  "sourcing": ["Your main input is software — claim GST input credit on subscriptions billed to your GSTIN if registered"],
+  "pitfalls": [
+    "Taking payments in a personal savings account and never separating business money — fine legally for a proprietor but ruinous for books and loans.",
+    "Receiving foreign money via friends/relatives or crypto to ‘avoid GST’ — exports under LUT are already 0% GST; the risk is FEMA, not tax.",
+    "Forgetting that GST registration is mandatory for *any* inter-state supply of goods (not services) and for selling through marketplaces.",
+    "Opting out of presumptive taxation one year locks you out for five."
+  ],
+  "guides": ["choose-a-structure", "proprietorship-and-partnership", "gst-registration", "income-tax-for-businesses", "going-international", "banking-and-payments"]
+}

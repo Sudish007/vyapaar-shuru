@@ -1,0 +1,381 @@
+[
+  {
+    "id": "mca",
+    "name": "MCA V3 portal",
+    "url": "https://www.mca.gov.in/",
+    "category": "Incorporation & company law",
+    "what": "Incorporate companies and LLPs (SPICe+, FiLLiP), file annual returns (AOC-4, MGT-7/7A, Form 8/11), DIN and director KYC, check company names and master data.",
+    "short": "MCA"
+  },
+  {
+    "id": "mca-name",
+    "name": "MCA name check (company/LLP master data)",
+    "url": "https://www.mca.gov.in/content/mca/global/en/mca/master-data/MDS.html",
+    "category": "Incorporation & company law",
+    "what": "Search existing company and LLP names before reserving yours."
+  },
+  {
+    "id": "gst",
+    "name": "GST portal",
+    "url": "https://www.gst.gov.in/",
+    "category": "Tax",
+    "what": "GST registration (REG-01), returns (GSTR-1/3B/9), LUT filing, refunds, e-way bill links, notices.",
+    "short": "GST portal"
+  },
+  {
+    "id": "einvoice",
+    "name": "GST e-invoice portal (IRP)",
+    "url": "https://einvoice1.gst.gov.in/",
+    "category": "Tax",
+    "what": "Generate IRNs and QR codes once turnover crosses ₹5 crore; bulk tools and APIs."
+  },
+  {
+    "id": "ewaybill",
+    "name": "E-way bill portal",
+    "url": "https://ewaybillgst.gov.in/",
+    "category": "Tax",
+    "what": "Generate e-way bills for goods movements above ₹50,000 (state rules vary for intra-state)."
+  },
+  {
+    "id": "incometax",
+    "name": "Income Tax e-filing",
+    "url": "https://www.incometax.gov.in/",
+    "category": "Tax",
+    "what": "PAN, ITR filing, tax audit report upload, advance tax challans, Form 26AS and AIS.",
+    "short": "Income Tax portal"
+  },
+  {
+    "id": "traces",
+    "name": "TRACES (TDS)",
+    "url": "https://www.tdscpc.gov.in/",
+    "category": "Tax",
+    "what": "TDS returns, Form 16/16A, challan status, TAN-linked compliance.",
+    "short": "TRACES"
+  },
+  {
+    "id": "nsdl-pan",
+    "name": "PAN / TAN application (Protean)",
+    "url": "https://www.protean-tinpan.com/",
+    "category": "Tax",
+    "what": "Apply for PAN or TAN outside the SPICe+ bundle (proprietors, partnerships, trusts)."
+  },
+  {
+    "id": "udyam",
+    "name": "Udyam Registration",
+    "url": "https://udyamregistration.gov.in/",
+    "category": "Registrations",
+    "what": "Free MSME registration using Aadhaar, PAN and GSTIN; Udyam Assist for informal micro units."
+  },
+  {
+    "id": "nsws",
+    "name": "National Single Window System",
+    "url": "https://www.nsws.gov.in/",
+    "category": "Registrations",
+    "what": "One login for DPIIT startup recognition and many central and state approvals (labour, FSSAI, state incentives)."
+  },
+  {
+    "id": "startupindia",
+    "name": "Startup India",
+    "url": "https://www.startupindia.gov.in/",
+    "category": "Registrations",
+    "what": "Recognition status, 80-IAC tax-exemption application, seed fund, schemes directory, investor connect."
+  },
+  {
+    "id": "seedfund",
+    "name": "Startup India Seed Fund Scheme",
+    "url": "https://seedfund.startupindia.gov.in/",
+    "category": "Funding",
+    "what": "Apply through empanelled incubators for grants up to ₹20 lakh and convertible instruments up to ₹50 lakh."
+  },
+  {
+    "id": "dgft",
+    "name": "DGFT",
+    "url": "https://www.dgft.gov.in/",
+    "category": "Import & export",
+    "what": "IEC application and annual update, RCMC, e-BRC self-certification, licences and authorisations, Foreign Trade Policy.",
+    "short": "DGFT"
+  },
+  {
+    "id": "icegate",
+    "name": "ICEGATE (Customs)",
+    "url": "https://www.icegate.gov.in/",
+    "category": "Import & export",
+    "what": "Customs filing, AD-code registration at ports, shipping bills, bills of entry, duty calculator, RoDTEP scrips."
+  },
+  {
+    "id": "cbic",
+    "name": "CBIC",
+    "url": "https://www.cbic.gov.in/",
+    "category": "Import & export",
+    "what": "Customs tariff, notifications and circulars for customs and GST."
+  },
+  {
+    "id": "fieo",
+    "name": "FIEO",
+    "url": "https://fieo.org/",
+    "category": "Import & export",
+    "what": "Umbrella export promotion council; RCMC for multi-product exporters; trade fairs and buyer-seller meets."
+  },
+  {
+    "id": "ecgc",
+    "name": "ECGC",
+    "url": "https://www.ecgc.in/",
+    "category": "Import & export",
+    "what": "Export credit insurance against buyer default and country risk."
+  },
+  {
+    "id": "ipindia",
+    "name": "IP India (trademarks, patents, designs)",
+    "url": "https://ipindia.gov.in/",
+    "category": "Registrations",
+    "what": "Trademark public search, TM-A filing, status, patents and design registration."
+  },
+  {
+    "id": "copyright",
+    "name": "Copyright Office",
+    "url": "https://copyright.gov.in/",
+    "category": "Registrations",
+    "what": "Register software, content and artistic works."
+  },
+  {
+    "id": "foscos",
+    "name": "FoSCoS (FSSAI)",
+    "url": "https://foscos.fssai.gov.in/",
+    "category": "Licences",
+    "what": "Food business registration and State/Central licences, renewals, annual returns."
+  },
+  {
+    "id": "bis",
+    "name": "Bureau of Indian Standards",
+    "url": "https://www.bis.gov.in/",
+    "category": "Licences",
+    "what": "ISI mark, Compulsory Registration Scheme for electronics, hallmarking, quality control orders."
+  },
+  {
+    "id": "legalmetrology",
+    "name": "Legal Metrology (Dept. of Consumer Affairs)",
+    "url": "https://consumeraffairs.nic.in/organisation-and-units/division/legal-metrology",
+    "category": "Licences",
+    "what": "Packaged Commodities Rules, LMPC registration for importers/packers, model approval of weighing instruments."
+  },
+  {
+    "id": "cdsco",
+    "name": "CDSCO",
+    "url": "https://cdsco.gov.in/",
+    "category": "Licences",
+    "what": "Drugs, cosmetics and medical-device licensing and import registration."
+  },
+  {
+    "id": "epfo",
+    "name": "EPFO Unified Portal (employer)",
+    "url": "https://unifiedportal-emp.epfindia.gov.in/",
+    "category": "Labour",
+    "what": "Employer registration, monthly ECR filing, UAN generation.",
+    "short": "EPFO"
+  },
+  {
+    "id": "esic",
+    "name": "ESIC",
+    "url": "https://www.esic.gov.in/",
+    "category": "Labour",
+    "what": "Employer registration, monthly contributions, IP registration."
+  },
+  {
+    "id": "shramsuvidha",
+    "name": "Shram Suvidha",
+    "url": "https://shramsuvidha.gov.in/",
+    "category": "Labour",
+    "what": "Common registration under labour laws (EPF/ESI), Labour Identification Number, annual returns."
+  },
+  {
+    "id": "rbi-firms",
+    "name": "RBI FIRMS (foreign investment reporting)",
+    "url": "https://firms.rbi.org.in/",
+    "category": "RBI & FEMA",
+    "what": "Entity Master and FC-GPR/FC-TRS filings when you issue or transfer shares to non-residents."
+  },
+  {
+    "id": "rbi",
+    "name": "Reserve Bank of India",
+    "url": "https://www.rbi.org.in/",
+    "category": "RBI & FEMA",
+    "what": "FEMA regulations, master directions on exports/imports and ODI, payment-system licences.",
+    "short": "RBI"
+  },
+  {
+    "id": "gem",
+    "name": "Government e-Marketplace (GeM)",
+    "url": "https://gem.gov.in/",
+    "category": "Selling",
+    "what": "Sell goods and services to government buyers; Udyam-registered sellers get preference and exemptions."
+  },
+  {
+    "id": "ondc",
+    "name": "ONDC",
+    "url": "https://ondc.org/",
+    "category": "Selling",
+    "what": "Open network for digital commerce; list once through a seller app and appear on many buyer apps."
+  },
+  {
+    "id": "amazon-seller",
+    "name": "Amazon Seller Central (India)",
+    "url": "https://sell.amazon.in/",
+    "category": "Selling",
+    "what": "Marketplace onboarding: GSTIN, PAN, bank account, brand registry (trademark)."
+  },
+  {
+    "id": "flipkart-seller",
+    "name": "Flipkart Seller Hub",
+    "url": "https://seller.flipkart.com/",
+    "category": "Selling",
+    "what": "Marketplace onboarding and fulfilment programmes."
+  },
+  {
+    "id": "meesho-seller",
+    "name": "Meesho Supplier Panel",
+    "url": "https://supplier.meesho.com/",
+    "category": "Selling",
+    "what": "Zero-commission marketplace; accepts composition-scheme and, for exempt goods, unregistered sellers."
+  },
+  {
+    "id": "amazon-global",
+    "name": "Amazon Global Selling",
+    "url": "https://sell.amazon.in/grow-your-business/amazon-global-selling",
+    "category": "Selling",
+    "what": "Export via Amazon’s 18+ marketplaces; needs IEC, AD code and a courier/CSB route."
+  },
+  {
+    "id": "egazette",
+    "name": "e-Gazette of India",
+    "url": "https://egazette.gov.in/",
+    "category": "Law",
+    "what": "Official text of every notification and rule."
+  },
+  {
+    "id": "indiacode",
+    "name": "India Code",
+    "url": "https://www.indiacode.nic.in/",
+    "category": "Law",
+    "what": "Consolidated text of central Acts and rules."
+  },
+  {
+    "id": "gstcouncil",
+    "name": "GST Council",
+    "url": "https://gstcouncil.gov.in/",
+    "category": "Law",
+    "what": "Council meeting outcomes and press releases."
+  },
+  {
+    "id": "pib",
+    "name": "Press Information Bureau",
+    "url": "https://pib.gov.in/",
+    "category": "Law",
+    "what": "Official press releases from every ministry."
+  },
+  {
+    "id": "msme-samadhaan",
+    "name": "MSME Samadhaan",
+    "url": "https://samadhaan.msme.gov.in/",
+    "category": "MSME",
+    "what": "File delayed-payment complaints against buyers who do not pay within 45 days."
+  },
+  {
+    "id": "cgtmse",
+    "name": "CGTMSE",
+    "url": "https://www.cgtmse.in/",
+    "category": "Funding",
+    "what": "Collateral-free credit guarantee for micro and small enterprise loans."
+  },
+  {
+    "id": "mudra",
+    "name": "PM MUDRA Yojana",
+    "url": "https://www.mudra.org.in/",
+    "category": "Funding",
+    "what": "Shishu/Kishore/Tarun/Tarun Plus loans up to ₹20 lakh through banks and NBFCs."
+  },
+  {
+    "id": "pmegp",
+    "name": "PMEGP (KVIC)",
+    "url": "https://www.kviconline.gov.in/pmegpeportal/",
+    "category": "Funding",
+    "what": "Subsidised project loans for new micro enterprises (15–35% subsidy)."
+  },
+  {
+    "id": "standupindia",
+    "name": "Stand-Up India",
+    "url": "https://www.standupmitra.in/",
+    "category": "Funding",
+    "what": "₹10 lakh–₹1 crore loans for SC/ST and women entrepreneurs setting up greenfield enterprises."
+  },
+  {
+    "id": "sidbi",
+    "name": "SIDBI",
+    "url": "https://www.sidbi.in/",
+    "category": "Funding",
+    "what": "Development bank for MSMEs; Fund of Funds for Startups operator."
+  },
+  {
+    "id": "treds-rxil",
+    "name": "TReDS — RXIL / M1xchange / Invoicemart",
+    "url": "https://www.rxil.in/",
+    "category": "Funding",
+    "what": "Discount invoices raised on large buyers for early payment."
+  },
+  {
+    "id": "stpi",
+    "name": "STPI (SOFTEX)",
+    "url": "https://www.stpi.in/",
+    "category": "Import & export",
+    "what": "Register as a non-STP unit to file SOFTEX forms for software/IT exports."
+  },
+  {
+    "id": "apeda",
+    "name": "APEDA",
+    "url": "https://apeda.gov.in/",
+    "category": "Import & export",
+    "what": "Registration (RCMC) for agricultural and processed-food exporters."
+  },
+  {
+    "id": "epch",
+    "name": "EPCH (handicrafts)",
+    "url": "https://www.epch.in/",
+    "category": "Import & export",
+    "what": "Export promotion council for handicrafts; RCMC and fairs."
+  },
+  {
+    "id": "ocmms",
+    "name": "State Pollution Control Board (OCMMS)",
+    "url": "https://ocmms.nic.in/",
+    "category": "Licences",
+    "what": "Consent to Establish / Operate for manufacturing units, by state board."
+  },
+  {
+    "id": "state-shops",
+    "name": "State labour department (Shops & Establishments)",
+    "url": "https://labour.gov.in/state-labour-departments",
+    "category": "State",
+    "what": "Shops & Establishment registration, professional tax and trade licences are state/municipal — find your department here.",
+    "short": "State portal"
+  },
+  {
+    "id": "nsic",
+    "name": "NSIC",
+    "url": "https://www.nsic.co.in/",
+    "category": "MSME",
+    "what": "Single-point registration for government purchase, raw-material assistance."
+  },
+  {
+    "id": "champions",
+    "name": "MSME Champions portal",
+    "url": "https://champions.gov.in/",
+    "category": "MSME",
+    "what": "Grievances, schemes and handholding for MSMEs."
+  },
+  {
+    "id": "dsc",
+    "name": "Digital Signature Certificates (CCA licensed CAs)",
+    "url": "https://cca.gov.in/licensed_ca.html",
+    "category": "Incorporation & company law",
+    "what": "List of licensed certifying authorities for Class 3 DSCs used on MCA, GST, DGFT and income-tax portals."
+  }
+]

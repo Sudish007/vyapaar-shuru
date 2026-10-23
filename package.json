@@ -1,0 +1,21 @@
+{
+  "name": "vyapaar-shuru",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Vyapaar Shuru — start your business in India: structures, registrations, licences, GST, tax, audit, records, import-export, going international, plus a live regulatory-updates feed.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "fetch": "node scripts/fetch.mjs",
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/build.mjs && node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.11.2",
+    "marked": "18.1.1"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "import-trading",
+  "title": "Import and distribute",
+  "tagline": "Buying abroad — China, Vietnam, Europe — and selling in India through distributors, marketplaces or your own brand.",
+  "who": ["Traders importing finished goods or components", "Brands sourcing manufacturing overseas", "Distributors for foreign brands in India"],
+  "affects": ["importer", "ecommerce"],
+  "structure": {
+    "recommended": "Private limited company or LLP",
+    "why": "Import consignments carry real liability (customs disputes, product safety, BIS, distributor contracts) and need bank credit (LCs, buyer’s credit) — lenders and foreign suppliers prefer a company. A proprietor can import legally, but limited liability matters when a container is held.",
+    "alternatives": "Proprietorship for small courier-mode imports to test products."
+  },
+  "selections": { "structure": "pvt", "selling": ["goods"], "channels": ["import", "b2b", "marketplace"], "employees": "1-9", "flags": ["packaged-goods", "electronics"] },
+  "steps": ["choose-structure", "check-name", "pick-codes", "dsc", "spice-plus", "registered-office", "inc-20a", "pan-tan", "gst-register", "iec", "udyam", "bis", "legal-metrology", "trademark", "current-account", "payments", "sourcing", "import-landed-cost", "import-clearance", "marketplace-onboarding", "ecommerce-rules", "books", "gst-returns", "tds-returns", "advance-tax", "itr", "statutory-audit", "roc-annual", "annual-renewals"],
+  "costs": { "low": 20000, "high": 150000, "breakdown": ["Incorporation: ₹8,000–25,000", "IEC ₹500; AD code registration ₹500–2,000", "BIS CRS (electronics) per model: ₹25,000–1.5 lakh incl. testing", "LMPC importer registration: ₹500–2,000", "CHA + port charges per shipment: ₹5,000–15,000", "Audit + ROC + GST: ₹35,000–70,000 a year"] },
+  "timeline": "Company + GST + IEC inside a month; BIS (if needed) 2–4 months; first container 6–10 weeks door to door.",
+  "taxes": [
+    "Customs: Basic Customs Duty on CIF value (0–150% by ITC-HS; FTA rates with a certificate of origin) + 10% Social Welfare Surcharge on BCD + IGST on (CIF + BCD + SWS). IGST is input credit; BCD and SWS are cost.",
+    "Anti-dumping and safeguard duties on many Chinese goods (steel, chemicals, solar, tiles) — check CBIC before pricing.",
+    "GST on resale at the HSN rate; e-way bills for movements above ₹50,000.",
+    "TCS on foreign remittance for imports does not apply to business import payments through proper banking channels (Form A1)."
+  ],
+  "selling": ["Distributors and dealers (sign agreements with territory and payment terms)", "Marketplaces — importer name/address and country of origin must appear on labels and listings", "Own brand D2C after BIS/label compliance", "B2B platforms and GeM for government buyers"],
+  "sourcing": ["Alibaba (Trade Assurance), 1688 via agents, Made-in-China, Global Sources; fairs: Canton Fair, Yiwu market, HK Electronics Fair", "Verify suppliers: business licence, factory audit (SGS/QIMA/TÜV inspection ₹20,000–40,000 per visit), samples, 30/70 payment terms", "Incoterms: start with FOB and your own freight forwarder; DDP hides duty surprises"],
+  "pitfalls": [
+    "Shipping electronics without the foreign factory’s BIS registration — customs will not release the goods.",
+    "Undervaluing invoices to save duty — Customs uses valuation databases; penalties plus confiscation.",
+    "Forgetting MRP/importer stickers before clearance under Legal Metrology — re-labelling in a bonded warehouse is slow and expensive.",
+    "Paying suppliers via personal remittances or crypto — import payments must go through your AD bank with the Bill of Entry matched (IDPMS).",
+    "Ignoring restricted/prohibited lists and licence needs (e.g., laptops/IT hardware under the import management system, certain chemicals, used goods)."
+  ],
+  "guides": ["import-into-india", "sourcing-and-procurement", "gst-registration", "register-a-private-limited-company", "ecommerce-rules", "licences-directory"]
+}

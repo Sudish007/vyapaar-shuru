@@ -1,0 +1,32 @@
+{
+  "slug": "d2c-brand",
+  "title": "D2C product brand",
+  "tagline": "Your own label — apparel, beauty, home, gadgets — sold through your website, marketplaces and quick commerce.",
+  "who": ["Founders launching a branded physical product", "Private-label sellers moving from reselling to their own brand", "Teams planning to raise angel or VC money"],
+  "affects": ["ecommerce", "manufacturer", "company"],
+  "structure": {
+    "recommended": "Private limited company",
+    "why": "Brands build enterprise value and raise money; a company holds the trademark, issues ESOPs and takes investment cleanly. The 22% concessional rate (25.17% all-in) and DPIIT recognition sweeten it. Expect ₹40,000–1 lakh a year in audit and ROC compliance.",
+    "alternatives": "LLP if you will stay bootstrapped and family-owned; proprietorship only for a test launch before committing."
+  },
+  "selections": { "structure": "pvt", "selling": ["goods"], "channels": ["own-site", "marketplace"], "employees": "1-9", "flags": ["packaged-goods"] },
+  "steps": ["choose-structure", "check-name", "pick-codes", "founders-agreement", "dsc", "spice-plus", "registered-office", "inc-20a", "pan-tan", "gst-register", "gst-scheme", "udyam", "dpiit", "trademark", "legal-metrology", "bis", "shops-establishment", "current-account", "payments", "sourcing", "own-store", "marketplace-onboarding", "website-policies", "ecommerce-rules", "offer-letters", "professional-tax", "payroll-tds", "dpdp", "books", "gst-returns", "tds-returns", "advance-tax", "itr", "statutory-audit", "roc-annual", "board-meetings", "msme-payments", "annual-renewals"],
+  "costs": { "low": 25000, "high": 90000, "breakdown": ["Incorporation incl. DSCs, stamp duty, professional fee: ₹8,000–25,000", "Trademark (2 classes, startup rate): ₹9,000 + attorney ₹5,000–10,000", "Legal Metrology registration + label design: ₹2,000–15,000", "Barcodes (GS1 India): ₹4,000–10,000 first year", "Shops & Establishment: ₹0–5,000", "Accounting + annual audit/ROC: ₹30,000–60,000 a year", "Website/platform: ₹0–36,000 a year"] },
+  "timeline": "Incorporation 7–15 working days; GST a further 3–30; marketplace accounts 2–7 days each; first sellable, labelled stock typically 6–10 weeks from today.",
+  "taxes": [
+    "Corporate tax 25.17% all-in under the concessional regime (or 25% + surcharge/cess default); dividends taxed in founders’ hands.",
+    "GST at the HSN rate on every sale (5%/18% after the 2025 rationalisation); marketplaces deduct 0.5% GST TCS and 0.1% income-tax TDS on your sales.",
+    "Place of supply = delivery state; inter-state B2C sales attract IGST — your GSTIN handles it, no registration needed in every state unless you stock goods there (Rule 14B from Nov 2026 lets small sellers use the marketplace warehouse as PPoB).",
+    "TDS on your own payments: contractors, designers, rent, influencer fees (194C/194J/194H)."
+  ],
+  "selling": ["Own store on Shopify/WooCommerce with Razorpay/Cashfree", "Amazon, Flipkart, Myntra/Ajio/Nykaa (category-curated), JioMart, Meesho", "Quick commerce (Blinkit, Zepto, Instamart) via brand onboarding once you have velocity", "Instagram/WhatsApp commerce; ONDC through a seller app", "Offline: pop-ups, multi-brand stores, exhibitions"],
+  "sourcing": ["Contract manufacturers in clusters: Tirupur/Ludhiana (knits, hosiery), Surat/Jaipur (fabrics, prints), Noida/Gurugram (apparel), Delhi/Mumbai (cosmetics contract manufacturers with CDSCO licence), Moradabad (metalware), Agra/Kanpur (leather)", "Imports from China/Vietnam for electronics and accessories — budget BIS, duty and labels", "B2B platforms: IndiaMART, Udaan, Alibaba; always sample and sign a spec sheet"],
+  "pitfalls": [
+    "Launching without a trademark search — rebranding after traction is the most expensive mistake on this path.",
+    "Labels missing MRP inclusive of taxes, net quantity, manufacturer/packer address or country of origin — marketplaces delist and Legal Metrology fines per SKU.",
+    "Ignoring the 1 January 2027 e-commerce amendments: ‘was’ prices must be the lowest of the last 30 days; best-before and return-shipping terms must be shown.",
+    "Treating marketplace payouts as revenue — reconcile TCS/TDS credits monthly or you overpay tax.",
+    "Skipping INC-20A, the auditor appointment or DIR-3 KYC in year one — ₹100/day penalties pile up silently."
+  ],
+  "guides": ["register-a-private-limited-company", "gst-registration", "gst-compliance", "selling-on-marketplaces", "ecommerce-rules", "trademark-and-ip", "sourcing-and-procurement", "audits-and-annual-filings"]
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "export-business",
+  "title": "Export business (goods)",
+  "tagline": "Selling Indian products abroad — B2B buyers, Amazon Global Selling, Etsy, or your own international store.",
+  "who": ["Manufacturers and artisans looking for foreign buyers", "Merchant exporters sourcing from clusters", "D2C brands adding cross-border e-commerce"],
+  "affects": ["exporter", "manufacturer"],
+  "structure": {
+    "recommended": "Private limited or LLP (proprietorship works for e-commerce exports)",
+    "why": "Buyers, banks (packing credit, LCs) and ECGC prefer an incorporated entity; FTP incentive accounts and RCMC are per entity. Small e-commerce exporters shipping by courier can start as proprietors and convert later.",
+    "alternatives": "Proprietorship for courier-mode e-commerce exports; partnership for family trading houses."
+  },
+  "selections": { "structure": "pvt", "selling": ["goods"], "channels": ["export", "b2b", "own-site"], "employees": "1-9", "flags": ["foreign-payments", "packaged-goods"] },
+  "steps": ["choose-structure", "check-name", "pick-codes", "dsc", "spice-plus", "registered-office", "inc-20a", "pan-tan", "gst-register", "lut", "iec", "ad-code", "rcmc", "udyam", "trademark", "current-account", "foreign-payments", "sourcing", "export-docs", "export-incentives", "own-store", "website-policies", "books", "gst-returns", "tds-returns", "advance-tax", "itr", "statutory-audit", "roc-annual", "annual-renewals"],
+  "costs": { "low": 15000, "high": 80000, "breakdown": ["Incorporation: ₹8,000–25,000", "IEC ₹500; AD code ₹500–2,000; RCMC ₹5,000–15,000/year", "LUT free; e-BRC free", "ECGC policy: 0.1–1% of exposure", "CHA/courier per shipment: ₹2,000–6,000", "Audit + ROC + GST refunds handling: ₹35,000–80,000 a year"] },
+  "timeline": "Entity + GST + IEC + LUT + AD code in 3–5 weeks; first shipment as soon as a buyer pays an advance.",
+  "taxes": [
+    "Exports are zero-rated: ship under LUT without IGST and claim refund of input GST (ITC) — 90% is now sanctioned provisionally by the system from Nov 2026 reforms — or pay IGST and claim it back.",
+    "RoDTEP scrips (0.5–4.3% of FOB by HS code) and duty drawback on imported inputs; Advance Authorisation/EPCG for duty-free inputs and machinery.",
+    "Export proceeds must be realised within the RBI period (9 months after the 22 Sep 2026 amendment; verify) and matched to e-BRCs.",
+    "Income tax as per entity; no special export tax holiday outside SEZs."
+  ],
+  "selling": ["B2B: buyer databases via EPCs, FIEO fairs, IndiaMART export leads, Alibaba Gold Supplier, LinkedIn outreach, Indian embassies’ commercial wings", "B2C cross-border: Amazon Global Selling, Etsy (handmade, GI products), eBay, Walmart Marketplace, Shopify Markets with DHL/FedEx/ShipGlobal", "Government: Dak Ghar Niryat Kendras for postal exports; E-Commerce Export Hubs being piloted"],
+  "sourcing": ["Clusters: Moradabad brass, Jaipur jewellery and textiles, Tirupur knits, Panipat home textiles, Bhadohi carpets, Agra footwear, Kutch and Lucknow crafts, Kerala spices, Darjeeling/Assam tea, Kashmir/Himachal apples and saffron", "APEDA/Spices Board/Tea Board registrations for agri products; phytosanitary and FSSAI export certificates", "GI tags add buyer trust abroad"],
+  "pitfalls": [
+    "Not ticking RoDTEP/drawback on the shipping bill — the incentive is lost permanently for that shipment.",
+    "Letting buyers pay late beyond the realisation window without an AD-bank extension.",
+    "Quoting CIF without insurance and freight quotes — freight has swung 300% in recent years.",
+    "Ignoring destination rules: EU CBAM reporting, US FDA prior notice for food, CE/UKCA marks, REACH for chemicals, Amazon’s own compliance documents.",
+    "Mixing export and domestic stock without separate invoice series — GST refund scrutiny."
+  ],
+  "guides": ["export-from-india", "going-international", "gst-registration", "sourcing-and-procurement", "funding-and-schemes", "banking-and-payments"]
+}

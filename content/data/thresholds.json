@@ -1,0 +1,282 @@
+[
+  {
+    "id": "gst-threshold-goods",
+    "value": "₹40 lakh",
+    "what": "GST registration threshold — goods",
+    "detail": "Aggregate turnover in a financial year, for suppliers dealing only in goods in most states. ₹20 lakh in Arunachal Pradesh, Manipur, Meghalaya, Mizoram, Nagaland, Puducherry, Sikkim, Telangana, Tripura and Uttarakhand (₹10 lakh for some). Selling through an e-commerce operator or inter-state can make registration mandatory from the first rupee.",
+    "since": "Since 1 Apr 2019; verified Oct 2026",
+    "topic": "gst",
+    "guide": "gst-registration",
+    "source": { "title": "CBIC GST registration FAQs / Notification 10/2019-CT", "url": "https://www.gst.gov.in/" }
+  },
+  {
+    "id": "gst-threshold-services",
+    "value": "₹20 lakh",
+    "what": "GST registration threshold — services (or mixed)",
+    "detail": "₹10 lakh in the special-category states (Manipur, Mizoram, Nagaland, Tripura and others as notified). Service providers may supply inter-state without registering until they cross the threshold; goods sellers may not.",
+    "since": "Verified Oct 2026",
+    "topic": "gst",
+    "guide": "gst-registration",
+    "source": { "title": "CGST Act s.22 and s.24; IGST Notification 10/2017", "url": "https://www.gst.gov.in/" }
+  },
+  {
+    "id": "gst-composition",
+    "value": "₹1.5 crore",
+    "what": "GST composition scheme ceiling — goods (₹75 lakh in special states)",
+    "detail": "Pay 1% of turnover (manufacturers and traders), 5% for restaurants, 6% for eligible service providers up to ₹50 lakh. No input tax credit, no tax invoices, no inter-state sales, no selling through marketplaces that collect TCS (being relaxed for intra-state sellers).",
+    "since": "Verified Oct 2026",
+    "topic": "gst",
+    "guide": "gst-compliance",
+    "source": { "title": "GST Council flyer on composition levy", "url": "https://gstcouncil.gov.in/sites/default/files/e-version-gst-flyers/composition-levy-scheme.pdf" }
+  },
+  {
+    "id": "gst-einvoice",
+    "value": "₹5 crore",
+    "what": "E-invoicing becomes mandatory (aggregate turnover in any year since 2017-18)",
+    "detail": "Every B2B invoice, export invoice, credit and debit note must carry an IRN and QR code from the Invoice Registration Portal. Applies from the start of the financial year after you cross the limit.",
+    "since": "Since 1 Aug 2023 (Notification 10/2023-CT); verified Oct 2026",
+    "topic": "gst",
+    "guide": "gst-compliance",
+    "source": { "title": "GST e-invoice system", "url": "https://einvoice1.gst.gov.in/" }
+  },
+  {
+    "id": "gst-annual-return",
+    "value": "₹2 crore / ₹5 crore",
+    "what": "GSTR-9 annual return required above ₹2 crore; GSTR-9C reconciliation above ₹5 crore",
+    "detail": "Both are due 31 December following the financial year. Below ₹2 crore the annual return has been optional every year so far, by notification.",
+    "since": "Verified Oct 2026",
+    "topic": "gst",
+    "guide": "gst-compliance",
+    "source": { "title": "GST portal — annual return", "url": "https://www.gst.gov.in/" }
+  },
+  {
+    "id": "gst-rates",
+    "value": "5% · 18% · 40%",
+    "what": "GST slabs after the 56th Council’s rate rationalisation",
+    "detail": "The 12% and 28% slabs were folded into 5% (merit) and 18% (standard); a 40% rate applies to a short list of sin and luxury goods. Nil-rated and exempt lists continue. Check your HSN/SAC on the rate finder — many items moved.",
+    "since": "Effective 22 Sep 2025",
+    "topic": "gst",
+    "guide": "gst-compliance",
+    "source": { "title": "PIB: GST simplified to a two-slab structure", "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc202594628401.pdf" }
+  },
+  {
+    "id": "gst-simplified-reg",
+    "value": "₹2.5 lakh / month",
+    "what": "Output-tax ceiling for the simplified 3-working-day GST registration (Rule 14A) and the e-commerce warehouse registration (Rule 14B)",
+    "detail": "Rule 14A: Aadhaar-authenticated applicants whose monthly output tax on B2B supplies stays within ₹2.5 lakh get registration in three working days. Rule 14B (recommended by the 57th Council on 8 Oct 2026, slated for 1 Nov 2026): goods sellers selling only through TCS-collecting marketplaces can register in a state using the marketplace’s warehouse as their principal place of business.",
+    "since": "14A from 1 Nov 2025; 14B expected 1 Nov 2026 (await notification)",
+    "topic": "gst",
+    "guide": "selling-on-marketplaces",
+    "source": { "title": "GSTN advisory on the simplified registration scheme", "url": "https://www.mahagst.gov.in/public/uploads/gstnadvisory/1768890794_381%20Advisory%20for%20Simplified%20GST%20Registration%20Scheme.pdf" }
+  },
+  {
+    "id": "gst-tcs",
+    "value": "0.5%",
+    "what": "GST tax collected at source by marketplaces on your net sales (0.25% CGST + 0.25% SGST, or 0.5% IGST)",
+    "detail": "Deducted by the e-commerce operator, visible in GSTR-2A/TCS credit, claimable in your electronic cash ledger. Halved from 1% in July 2024.",
+    "since": "Since 10 Jul 2024",
+    "topic": "gst",
+    "guide": "selling-on-marketplaces",
+    "source": { "title": "CGST s.52; Notification 15/2024-CT", "url": "https://www.gst.gov.in/" }
+  },
+  {
+    "id": "it-tds-ecommerce",
+    "value": "0.1%",
+    "what": "Income-tax TDS deducted by e-commerce operators on gross sales (section 194-O of the 1961 Act; renumbered in the 2025 Act)",
+    "detail": "5% if you have not given your PAN. Exempt for individuals/HUFs with gross sales under ₹5 lakh who furnish PAN. Appears in your Form 26AS/AIS; adjust against your tax.",
+    "since": "Rate 0.1% since 1 Oct 2024; verified Oct 2026",
+    "topic": "income-tax",
+    "guide": "tds-tcs",
+    "source": { "title": "Income Tax Department — TDS rates", "url": "https://www.incometaxindia.gov.in/" }
+  },
+  {
+    "id": "it-presumptive-business",
+    "value": "₹3 crore",
+    "what": "Presumptive taxation ceiling for small businesses (₹2 crore if more than 5% of receipts are in cash)",
+    "detail": "Declare 6% of digital receipts (8% of cash receipts) as income; no books, no tax audit. Now Section 58 of the Income-tax Act, 2025 (was 44AD). Opting out after opting in locks you out for five years. Deductions and losses cannot be set off against presumptive income.",
+    "since": "Income-tax Act 2025 in force 1 Apr 2026",
+    "topic": "income-tax",
+    "guide": "income-tax-for-businesses",
+    "source": { "title": "Income Tax Department FAQs on presumptive taxation", "url": "https://www.incometaxindia.gov.in/documents/d/guest/faqs-on-tax-on-presumptive-taxation-scheme" }
+  },
+  {
+    "id": "it-presumptive-profession",
+    "value": "₹75 lakh",
+    "what": "Presumptive taxation ceiling for specified professionals (₹50 lakh if more than 5% of receipts are in cash)",
+    "detail": "Declare 50% of gross receipts as income. Covers legal, medical, engineering, architecture, accountancy, technical consultancy, interior decoration, film artists, IT professionals and authorised representatives. Section 58 of the 2025 Act (was 44ADA).",
+    "since": "Income-tax Act 2025 in force 1 Apr 2026",
+    "topic": "income-tax",
+    "guide": "income-tax-for-businesses",
+    "source": { "title": "Income Tax Department FAQs on presumptive taxation", "url": "https://www.incometaxindia.gov.in/documents/d/guest/faqs-on-tax-on-presumptive-taxation-scheme" }
+  },
+  {
+    "id": "it-tax-audit",
+    "value": "₹1 crore / ₹10 crore",
+    "what": "Tax audit (Section 63 of the 2025 Act, was 44AB): ₹1 crore turnover, or ₹10 crore when cash receipts and cash payments are each within 5%",
+    "detail": "Professionals: ₹50 lakh gross receipts. Report (Form 26 under the 2026 Rules, was 3CD) is due 30 September; return due 31 October. Companies always need a statutory audit under the Companies Act regardless of this.",
+    "since": "Income-tax Act 2025 in force 1 Apr 2026",
+    "topic": "income-tax",
+    "guide": "audits-and-annual-filings",
+    "source": { "title": "Income-tax Act 2025, section 63", "url": "https://www.incometaxindia.gov.in/w/section-63-130" }
+  },
+  {
+    "id": "it-corporate-rate",
+    "value": "22% + 10% + 4%",
+    "what": "Concessional corporate rate (25.17% all-in) for a domestic company that gives up exemptions",
+    "detail": "Default rates are 25% (turnover up to ₹400 crore in the reference year) or 30%, plus surcharge (7%/12%) and 4% cess. LLPs and partnership firms pay a flat 30% plus 12% surcharge above ₹1 crore and 4% cess. Proprietors pay slab rates — nil up to ₹12 lakh under the default regime with rebate.",
+    "since": "Rates unchanged by Budget 2026; sections renumbered in the 2025 Act",
+    "topic": "income-tax",
+    "guide": "income-tax-for-businesses",
+    "source": { "title": "Income Tax Department — domestic company rates", "url": "https://www.incometaxindia.gov.in/domestic-company" }
+  },
+  {
+    "id": "mca-small-company",
+    "value": "₹10 crore / ₹100 crore",
+    "what": "“Small company” limits — paid-up capital and turnover",
+    "detail": "Small companies file MGT-7A, hold only two board meetings a year, skip cash-flow statements, CARO and auditor rotation, and pay lower penalties. Raised from ₹4 crore / ₹40 crore.",
+    "since": "G.S.R. 880(E), effective 1 Dec 2025",
+    "topic": "companies",
+    "guide": "audits-and-annual-filings",
+    "source": { "title": "ET: MCA raises small-company thresholds", "url": "https://cfo.economictimes.indiatimes.com/news/governance-risk-compliance/experts-hail-higher-threshold-for-small-companies-say-move-will-ease-compliance-burden/125732133" }
+  },
+  {
+    "id": "llp-audit",
+    "value": "₹40 lakh / ₹25 lakh",
+    "what": "LLP audit required when turnover exceeds ₹40 lakh or partners’ contribution exceeds ₹25 lakh",
+    "detail": "Below both limits an LLP can file Form 8 with a partners’ declaration instead of audited accounts. Companies have no such exemption — every company is audited.",
+    "since": "LLP Rules 2009, r.24; verified Oct 2026",
+    "topic": "companies",
+    "guide": "llp-registration",
+    "source": { "title": "MCA — LLP", "url": "https://www.mca.gov.in/" }
+  },
+  {
+    "id": "startup-definition",
+    "value": "10 years · <₹200 crore",
+    "what": "DPIIT “startup”: up to 10 years from incorporation (20 for deep-tech) and turnover under ₹200 crore (₹300 crore deep-tech) in every year",
+    "detail": "Private limited, LLP, registered partnership or cooperative; working on innovation or scalable improvement; not formed by splitting an existing business. Recognition is free, via the National Single Window System.",
+    "since": "Startup India eligibility page, verified Oct 2026",
+    "topic": "startup-india",
+    "guide": "startup-india-dpiit",
+    "source": { "title": "Startup India — recognition & tax exemption", "url": "https://www.startupindia.gov.in/content/sih/en/startupgov/startup_recognition_page.html" }
+  },
+  {
+    "id": "startup-80iac",
+    "value": "3 of 10 years",
+    "what": "Startup tax holiday: 100% deduction of profits for any three consecutive years in the first ten (old section 80-IAC)",
+    "detail": "Only private limited companies and LLPs with DPIIT recognition and an Inter-Ministerial Board certificate. Budget 2025 extended eligibility to startups incorporated before 1 April 2030. Minimum alternate tax may still apply.",
+    "since": "Verified Oct 2026",
+    "topic": "startup-india",
+    "guide": "startup-india-dpiit",
+    "source": { "title": "Startup India — 80-IAC", "url": "https://www.startupindia.gov.in/content/sih/en/form80iac.html" }
+  },
+  {
+    "id": "msme-micro",
+    "value": "₹2.5 crore · ₹10 crore",
+    "what": "Micro enterprise: investment in plant, machinery or equipment up to ₹2.5 crore and turnover up to ₹10 crore",
+    "detail": "Small: ₹25 crore / ₹100 crore. Medium: ₹125 crore / ₹500 crore. Udyam registration is free and unlocks priority-sector loans, CGTMSE guarantees, 45-day payment protection and tender relaxations.",
+    "since": "Revised 1 Apr 2025",
+    "topic": "msme",
+    "guide": "udyam-msme-registration",
+    "source": { "title": "Udyam Registration portal — definition", "url": "https://www.udyamregistration.gov.in/Important.aspx" }
+  },
+  {
+    "id": "fssai-tiers",
+    "value": "₹1.5 crore / ₹50 crore",
+    "what": "FSSAI: Registration up to ₹1.5 crore turnover; State licence to ₹50 crore; Central licence above (importers and e-commerce food operators always Central)",
+    "detail": "Fees: Registration ₹100/year; State licence ₹2,000–5,000/year by kind of business; Central ₹7,500/year. Replaced the old ₹12 lakh and ₹20 crore tiers.",
+    "since": "Effective 1 Apr 2026",
+    "topic": "food-fssai",
+    "guide": "licences-directory",
+    "source": { "title": "FoSCoS — revised kind-of-business eligibility (31 Mar 2026)", "url": "https://foscos.fssai.gov.in/assets/docs/Revised_31thMarch2026KindofBusinessEligibility.pdf" }
+  },
+  {
+    "id": "epf-esi",
+    "value": "20 · 10 · ₹21,000",
+    "what": "EPF applies at 20 employees; ESI at 10 employees (20 in some states) for staff earning up to ₹21,000/month",
+    "detail": "EPF: 12% employee + 12% employer (wage ceiling ₹15,000 for mandatory coverage). ESI: 0.75% employee + 3.25% employer. Gratuity, maternity benefit and a POSH internal committee also start at 10 employees. The four Labour Codes consolidated these from 21 Nov 2025 with a one-year transition.",
+    "since": "Labour Codes effective 21 Nov 2025; verified Oct 2026",
+    "topic": "labour",
+    "guide": "hiring-and-payroll",
+    "source": { "title": "EPFO / ESIC", "url": "https://www.epfindia.gov.in/" }
+  },
+  {
+    "id": "trademark-fee",
+    "value": "₹4,500 / ₹9,000",
+    "what": "Trademark filing fee per class — individuals, DPIIT startups and Udyam MSMEs pay ₹4,500; everyone else ₹9,000 (e-filing)",
+    "detail": "Unchanged since the Trade Marks Rules, 2017. Registration typically takes 12–24 months; ™ may be used on filing, ® only after registration; valid 10 years, renewable.",
+    "since": "Verified Oct 2026",
+    "topic": "ip",
+    "guide": "trademark-and-ip",
+    "source": { "title": "IP India — forms and fees", "url": "https://www.ipindia.gov.in/pages/trade-marks/learn/forms-and-official-fees" }
+  },
+  {
+    "id": "iec-fee",
+    "value": "₹500",
+    "what": "Importer-Exporter Code (IEC) government fee; issued online by DGFT against PAN and bank details",
+    "detail": "One IEC per PAN, lifetime validity, but it must be updated (even with no change) every year between April and June or it is deactivated. Needed for every goods import/export; service exporters need it only to claim FTP benefits, though banks often ask for it.",
+    "since": "Verified Oct 2026",
+    "topic": "trade",
+    "guide": "export-from-india",
+    "source": { "title": "DGFT IEC FAQs", "url": "https://content.dgft.gov.in/Website/DGFT%20FAQs%20-%20Profile%20Management%20(IEC)%20v4.0.pdf" }
+  },
+  {
+    "id": "export-realisation",
+    "value": "9 months",
+    "what": "Period to realise and repatriate export proceeds under RBI’s 2026 export–import regulations, as amended 22 Sep 2026 (12 months when invoiced in INR)",
+    "detail": "The January 2026 regulations had set 15 months (18 for INR); the September 2026 amendment cut both. Unrealised proceeds block RoDTEP/drawback and need an AD-bank extension. Confirm the current period with your bank before quoting long credit terms.",
+    "since": "Amendment dated 22 Sep 2026 — verify",
+    "topic": "trade",
+    "guide": "export-from-india",
+    "source": { "title": "India Briefing: FEMA export–import amendments 2026", "url": "https://www.india-briefing.com/news/india-rbi-fema-export-import-amendments-2026-47176.html/" }
+  },
+  {
+    "id": "courier-export-cap",
+    "value": "No cap",
+    "what": "Value limit per courier export consignment — the ₹10 lakh ceiling was removed",
+    "detail": "Budget 2026 and CBIC’s 2026 courier amendments lifted the cap, so e-commerce exporters can ship high-value orders by courier under the simplified CSB route instead of cargo.",
+    "since": "Budget 2026 (1 Feb 2026); CBIC amendments 2026",
+    "topic": "trade",
+    "guide": "export-from-india",
+    "source": { "title": "ET Retail: Budget 2026 lifts courier export cap", "url": "https://retail.economictimes.indiatimes.com/news/e-commerce/e-tailing/budget-2026-lifts-courier-export-cap-eases-rules-to-help-msmes-scale-global-e-commerce/127839034" }
+  },
+  {
+    "id": "dpdp-deadline",
+    "value": "13 May 2027",
+    "what": "Full obligations under the Digital Personal Data Protection Act take effect (18 months from the 13 Nov 2025 Rules)",
+    "detail": "Consent notices, data-principal rights, 72-hour breach reporting, retention and erasure, children’s data and grievance redressal within 90 days. Consent Managers register from Nov 2026. Penalties up to ₹250 crore per breach.",
+    "since": "DPDP Rules notified 13 Nov 2025",
+    "topic": "data-digital",
+    "guide": "data-protection-dpdp",
+    "source": { "title": "PwC: MeitY notifies DPDP Rules 2025", "url": "https://www.pwc.in/assets/pdfs/news-alert/regulatory-insights/2025/pwc_india_regulatory_insights_16_november_2025_meity_notifies_digital_personal_data_protection_rules_2025.pdf" }
+  },
+  {
+    "id": "ecommerce-rules-2026",
+    "value": "1 Jan 2027",
+    "what": "Consumer Protection (E-Commerce) Amendment Rules 2026 take effect",
+    "detail": "Sellers must display GSTIN/Udyam number, country of origin, best-before dates and return-shipping cost; discounts must show the lowest price of the previous 30 days; sponsored listings labelled; annual dark-pattern self-audit with a displayed certificate; grievances acknowledged in 48 hours and resolved in a month.",
+    "since": "Notified 9 Sep 2026",
+    "topic": "consumer-ecommerce",
+    "guide": "ecommerce-rules",
+    "source": { "title": "Legal 500: Overview of the 2026 Amendment Rules", "url": "https://www.legal500.com/intelligence/india/corporate-commercial-law/overview-of-the-consumer-protection-(e-commerce)-(amendment)-rules-2026" }
+  },
+  {
+    "id": "angel-tax",
+    "value": "Abolished",
+    "what": "Angel tax (old section 56(2)(viib)) on share premium above fair value",
+    "detail": "Removed by the Finance (No. 2) Act 2024 for share issues from 1 April 2025, so startups can raise at any valuation without a tax on the premium. Notices for earlier years can still arrive.",
+    "since": "From AY 2025-26",
+    "topic": "startup-india",
+    "guide": "funding-and-schemes",
+    "source": { "title": "Startup India — regulatory updates", "url": "https://startupindia.gov.in/content/sih/en/startupgov/regulatory_updates.html" }
+  },
+  {
+    "id": "books-retention",
+    "value": "8 years · 72 months",
+    "what": "Keep company books for 8 financial years (Companies Act s.128); GST records for 72 months from the annual-return due date",
+    "detail": "Income-tax: six years from the end of the relevant year, longer if an assessment is pending. Companies must use accounting software with an edit log (audit trail).",
+    "since": "Verified Oct 2026",
+    "topic": "companies",
+    "guide": "books-and-records",
+    "source": { "title": "Companies Act 2013, section 128", "url": "https://www.incometaxindia.gov.in/w/section-128-81" }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "slug": "local-store",
+  "title": "Local shop, salon, clinic or service outlet",
+  "tagline": "A physical neighbourhood business — retail, grooming, repair, coaching, fitness — possibly with an online storefront later.",
+  "who": ["Kirana, pharmacy, boutique, electronics or hardware stores", "Salons, gyms, tuition centres, clinics, repair shops", "Franchisees of a national brand"],
+  "affects": ["retailer"],
+  "structure": {
+    "recommended": "Sole proprietorship (partnership for family-run outlets)",
+    "why": "Lowest cost and paperwork; the shop lives on your PAN; GST only above ₹40 lakh for goods (₹20 lakh for services) unless you want composition or input credit. Incorporate only when you open multiple outlets, take investors or franchise your brand.",
+    "alternatives": "LLP for partners who want limited liability; franchisors often insist on a company for franchisees above a size."
+  },
+  "selections": { "structure": "proprietor", "selling": ["goods", "services"], "channels": ["offline-store"], "employees": "1-9", "flags": [] },
+  "steps": ["choose-structure", "check-name", "pick-codes", "pan-tan", "proprietor-proofs", "shops-establishment", "trade-licence", "gst-decide", "gst-register", "gst-scheme", "udyam", "sector-licence", "current-account", "payments", "offline-store", "sourcing", "offer-letters", "professional-tax", "payroll-tds", "books", "gst-returns", "advance-tax", "itr", "annual-renewals"],
+  "costs": { "low": 2000, "high": 40000, "breakdown": ["Shops & Establishment: ₹0–5,000", "Trade licence: ₹500–10,000/yr", "Signage permission: ₹1,000–10,000/yr in metros", "Udyam, GST: free", "Sector licences: drug licence (pharmacy, ₹3,000–5,000 + pharmacist), clinic registration under the Clinical Establishments Act (state), fitness/salon municipal health licences", "POS billing software: ₹3,000–15,000/yr"] },
+  "timeline": "Open the day the lease is signed in most states if you apply for S&E within 30 days; trade licence 1–4 weeks; GST a week if you want it.",
+  "taxes": [
+    "GST optional below ₹40 lakh (goods) / ₹20 lakh (services); composition at 1% (traders) or 6% (services up to ₹50 lakh) once registered if you sell only locally.",
+    "Income tax on slabs; presumptive 6% of digital / 8% of cash turnover (Section 58) up to ₹3 crore (₹2 crore if cash > 5%).",
+    "Professional tax on the proprietor and staff in levying states.",
+    "If your landlord is an individual and rent exceeds ₹50,000/month, deduct 2% TDS (194-IB) even as an individual."
+  ],
+  "selling": ["Walk-in plus WhatsApp/Instagram orders", "Hyperlocal: Dunzo-style delivery, ONDC seller apps, JioMart partner, Swiggy Instamart ‘local’ onboarding where available", "Google Business Profile — free, the single biggest footfall lever"],
+  "sourcing": ["Distributors and wholesale markets; B2B apps (Udaan, Jumbotail, Metro) for GST invoices and credit", "Franchise: read the FDD-equivalent, royalty, territory and exit clauses; India has no franchise-specific law — the agreement is everything"],
+  "pitfalls": [
+    "Signing an unregistered 3-year lease — leases over 11 months must be registered to be enforceable.",
+    "Running a pharmacy, clinic or gym without the sector licence because ‘everyone does’ — these are inspected.",
+    "Accepting only cash above ₹2 lakh per transaction — section 269ST penalty equals the amount received.",
+    "Staff on cash salaries without records — labour inspections under the Codes look at wage registers first."
+  ],
+  "guides": ["proprietorship-and-partnership", "licences-directory", "gst-registration", "selling-online-and-offline", "income-tax-for-businesses", "hiring-and-payroll"]
+}
